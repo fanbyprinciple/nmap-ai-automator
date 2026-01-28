@@ -11,10 +11,9 @@ Export your API Key in your terminal session:
 
 > export GEMINI_API_KEY="your_actual_api_key_here"
 
-Run the script with the new type:
-Bash
+Run the script with 
 
-> ./nmap_automator.sh -H 192.168.1.10 -t Analyze
+> sudo ./nmap_gemini.sh -H 192.168.1.10 -t Analyze
 
 Otherwise it works as nmap automator script by @21y4d
 
